@@ -100,4 +100,4 @@ export PATH=/usr/local/opt/ruby/bin/ruby:$PATH
 alias rf="rm -rf"
 alias rm="trash"
 
-alias config='/usr/local/bin/git --git-dir=/Users/morbec/.cfg/ --work-tree=/Users/morbec
+alias config='/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
