@@ -98,6 +98,6 @@ export PATH=/usr/local/opt/ruby/bin/ruby:$PATH
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias rf="rm -rf"
-alias rm="trash"
+alias rm="trash"  # brew install trash
 
 alias config='/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
