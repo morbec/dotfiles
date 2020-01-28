@@ -73,6 +73,10 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=/usr/local/opt/ruby/bin/ruby:$PATH
 
+if [ -r ~/.not-public ]
+then
+  source ~/.not-public
+fi
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

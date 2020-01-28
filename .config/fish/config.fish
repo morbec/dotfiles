@@ -5,6 +5,10 @@ set -x LC_ALL en_US.UTF-8
 # fnm
 #eval "$(fnm env --multi)"
 
+if [ -r ~/.not-public ]
+  source ~/.not-public
+end
+
 alias config='/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias python='python3'
 alias pip='pip3'
