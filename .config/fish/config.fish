@@ -4,7 +4,6 @@ set -x LC_ALL en_US.UTF-8
 
 # fnm
 #eval "$(fnm env --multi)"
-set -gx HOMEBREW_GITHUB_API_TOKEN 1f2bbe831b9cbf0ba32564095e07f0dacbaae722
 
 alias config='/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias python='python3'
