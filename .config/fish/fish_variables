@@ -24,15 +24,10 @@ SETUVAR _fish_abbr_gh:git\x20push\x20heroku\x20master
 SETUVAR _fish_abbr_gpom:git\x20push\x20origin\x20master
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_gup:git\x20remote\x20show\x20origin
-SETUVAR _fish_abbr_here:open\x20\x2e
-SETUVAR _fish_abbr_l:ls
-SETUVAR _fish_abbr_mdb:mongo\x20\x22mongodb\x2bsrv\x3a//cluster0\x2dkbuus\x2emongodb\x2enet/natours\x22\x20\x20\x2d\x2dusername\x20fabio
 SETUVAR _fish_abbr_rf:rm\x20\x2drf
 SETUVAR _fish_abbr_rm:trash
+SETUVAR _fish_abbr_tls:tmux\x20ls
 SETUVAR _fish_abbr_updatenpm:npm\x20install\x20npm\x40latest\x20\x2dg
-SETUVAR _fish_abbr_vsc:code\x2dinsiders\x20\x2e
-SETUVAR _fish_abbr_vsca:code\x2dinsiders\x20\x2e\x20\x2da
-SETUVAR _fish_abbr_vscr:code\x2dinsiders\x20\x2e\x20\x2dr
 SETUVAR _fish_abbr_ys:yarn\x20start
 SETUVAR fish_color_autosuggestion:969896
 SETUVAR fish_color_cancel:\x2dr
