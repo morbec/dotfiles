@@ -1,5 +1,6 @@
 function fish_prompt --description 'Write out the prompt'
 	set -l last_status $status
+  set -l node_version (node --version)
 
     if not set -q __fish_git_prompt_show_informative_status
         set -g __fish_git_prompt_show_informative_status 1
@@ -91,5 +92,8 @@ function fish_prompt --description 'Write out the prompt'
     #    set_color normal
     #end
 
+    if test -f package.json
+      echo -n "[$node_version] "
+    end
     echo -n "$suffix "
 end

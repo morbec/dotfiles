@@ -21,6 +21,7 @@ SETUVAR _fish_abbr_gup:git\x20remote\x20show\x20origin
 SETUVAR _fish_abbr_l:ls
 SETUVAR _fish_abbr_rf:rm\x20\x2drf
 SETUVAR _fish_abbr_rm:trash
+SETUVAR _fish_abbr_tks:tmux\x20kill\x2dsession\x20\x2dt
 SETUVAR _fish_abbr_tls:tmux\x20ls
 SETUVAR _fish_abbr_updatenpm:npm\x20install\x20npm\x40latest\x20\x2dg
 SETUVAR _fish_abbr_ys:yarn\x20start
@@ -52,6 +53,7 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_user_paths:/Users/fabio/\x2econfig/nvm/12\x2e14\x2e1/bin
 SETUVAR pure_begin_prompt_with_current_directory:true
 SETUVAR pure_color_command_duration:pure_color_warning
 SETUVAR pure_color_current_directory:pure_color_primary
