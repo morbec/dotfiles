@@ -21,8 +21,11 @@ SETUVAR _fish_abbr_gup:git\x20remote\x20show\x20origin
 SETUVAR _fish_abbr_l:ls
 SETUVAR _fish_abbr_rf:rm\x20\x2drf
 SETUVAR _fish_abbr_rm:trash
+SETUVAR _fish_abbr_t:tmux
+SETUVAR _fish_abbr_ta:tmux\x20a\x20\x2dt
 SETUVAR _fish_abbr_tks:tmux\x20kill\x2dsession\x20\x2dt
 SETUVAR _fish_abbr_tls:tmux\x20ls
+SETUVAR _fish_abbr_tn:tmux\x20new\x20\x2ds
 SETUVAR _fish_abbr_updatenpm:npm\x20install\x20npm\x40latest\x20\x2dg
 SETUVAR _fish_abbr_ys:yarn\x20start
 SETUVAR fish_color_autosuggestion:969896
