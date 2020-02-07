@@ -3,7 +3,7 @@
 	email = morbecfm@gmail.com
 [core]
 	editor = vim
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.global-gitignore
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
