@@ -11,5 +11,15 @@ if not functions -q fisher
     fish -c fisher
 end
 
+if not test -d ~/.tmux/plugins
+  echo "Creating the directory plugins at ~/.tmux/plugins"
+  mkdir -p ~/.tmux/plugins
+end
+
+if not test -f ~/.tmux/plugins/tpm/tpm 
+  echo "Cloning Tmux Plugin Manager - tpm"
+  git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+end
+
 export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
 
