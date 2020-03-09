@@ -1,6 +1,6 @@
 [user]
 	name = Fabio Morbec
-	email = morbecfm@gmail.com
+	email = fabio.morbec@dpdgroup.co.uk
 [core]
 	editor = vim
 	excludesfile = ~/.global-gitignore
