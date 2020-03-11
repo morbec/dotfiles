@@ -24,3 +24,7 @@ end
 
 export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/fabio.morbec/.config/local/share/google-cloud/path.fish.inc' ]; . '/Users/fabio.morbec/.config/local/share/google-cloud/path.fish.inc'; end
+
