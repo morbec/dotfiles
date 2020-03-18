@@ -1,7 +1,7 @@
 alias config='/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias python='python3'
 alias pip='pip3'
-alias lD='ls -ld .?* '
+# alias lD='ls -ld .?* '
 alias delete-node-modules="find . -name "node_modules" -type d -prune -exec rm -rf '{}' +"
 
 # automate the installation process on a new system ...
