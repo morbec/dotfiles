@@ -17,6 +17,7 @@
   st = status
   br = branch
   s = switch
+  r = restore
   revall = checkout
   rev = checkout
   graph = log --oneline --graph
