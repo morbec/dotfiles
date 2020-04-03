@@ -29,3 +29,6 @@ export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
 if [ -f '/Users/fabio.morbec/.config/local/share/google-cloud/path.fish.inc' ]; . '/Users/fabio.morbec/.config/local/share/google-cloud/path.fish.inc'; end
 
 set -g fish_user_paths "/usr/local/opt/mysql-client/bin" $fish_user_paths
+
+# GnuGPG 
+set -x GPG_TTY (tty) 

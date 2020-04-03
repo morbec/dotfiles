@@ -65,7 +65,7 @@ ZSH_THEME="robbyrussell"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(git autojump yarn)
+plugins=(git autojump yarn tmux)
 
 source $ZSH/oh-my-zsh.sh
 
