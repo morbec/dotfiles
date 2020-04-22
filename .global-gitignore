@@ -10,7 +10,10 @@ Thumbs.db
 
 # other stuff
 .cfg
+.prettierrc
 
+# vs code
+.vscode/
 
 # Logs
 logs
