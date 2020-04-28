@@ -1,9 +1,17 @@
 [user]
 	name = Fabio Morbec
 	email = morbecfm@gmail.com
+[color]
+  diff = auto
+  stats = auto
+  branch = auto
+  ui = auto
 [core]
 	editor = vim
 	excludesfile = ~/.global-gitignore
+  pager = delta
+[interactive]
+  diffFilter = delta --color-only
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
