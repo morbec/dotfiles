@@ -9,7 +9,7 @@
 [core]
 	editor = vim
 	excludesfile = ~/.global-gitignore
-  pager = delta
+  pager = delta --theme=Nord
 [interactive]
   diffFilter = delta --color-only
 [filter "lfs"]
