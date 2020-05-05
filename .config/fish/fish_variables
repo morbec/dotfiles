@@ -23,6 +23,8 @@ SETUVAR _fish_abbr_gg:git\x20log\x20\x2d\x2doneline\x20\x2d\x2dgraph
 SETUVAR _fish_abbr_gp:git\x20pull
 SETUVAR _fish_abbr_gpom:git\x20push\x20origin\x20master
 SETUVAR _fish_abbr_gs:git\x20status
+SETUVAR _fish_abbr_gsd:git\x20s\x20dev
+SETUVAR _fish_abbr_gss:git\x20s\x20staging
 SETUVAR _fish_abbr_gup:git\x20remote\x20show\x20origin
 SETUVAR _fish_abbr_l:ls
 SETUVAR _fish_abbr_lD:ls\x20\x2dld\x20\x2e\x3f\x2a\x20
