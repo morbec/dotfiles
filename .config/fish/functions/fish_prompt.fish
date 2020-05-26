@@ -1,5 +1,5 @@
 function fish_prompt
-    set -l node_version (node --version)
+    #set -l node_version (node --version)
 
     if not set -q __fish_git_prompt_show_informative_status
         set -g __fish_git_prompt_show_informative_status 1
@@ -68,9 +68,9 @@ function fish_prompt
     if test "$USER" = 'root'
         echo -n (set_color red)'# '
     end
-    if test -f package.json
-        echo -n "[$node_version] "
-    end
+    #if test -f package.json
+    #    echo -n "[$node_version] "
+    #end
     echo -n (set_color red)'❯'(set_color yellow)'❯'(set_color green)'❯ '
     set_color normal
 end
