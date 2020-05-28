@@ -10,8 +10,6 @@ Thumbs.db
 
 # other stuff
 .cfg
-.prettierrc
-.prettierignore
 service-account-key.json
 
 
