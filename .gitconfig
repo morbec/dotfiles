@@ -9,9 +9,6 @@
 [core]
 	editor = vim
 	excludesfile = ~/.global-gitignore
-  pager = delta --theme=Nord
-[interactive]
-  diffFilter = delta --color-only
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
