@@ -14,3 +14,5 @@ export NVM_DIR="$HOME/.nvm"
 
 export LC_ALL=en_US.UTF-8
 
+eval "$(starship init bash)"
+
