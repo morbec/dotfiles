@@ -5,7 +5,7 @@ SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
 SETUVAR Z_DATA:/Users/fabio/\x2elocal/share/z/data
 SETUVAR Z_DATA_DIR:/Users/fabio/\x2elocal/share/z
-SETUVAR Z_EXCLUDE:/Users/fabio
+SETUVAR Z_EXCLUDE:\x5e/Users/fabio\x24
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
@@ -39,7 +39,7 @@ SETUVAR fish_color_comment:e7c547
 SETUVAR fish_color_cwd:green
 SETUVAR fish_color_cwd_root:red
 SETUVAR fish_color_end:c397d8
-SETUVAR fish_color_error:d54e53
+SETUVAR fish_color_error:red\x1e\x2d\x2dbold
 SETUVAR fish_color_escape:00a6b2
 SETUVAR fish_color_history_current:\x2d\x2dbold
 SETUVAR fish_color_host:normal
@@ -61,7 +61,7 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/Users/fabio/\x2econfig/nvm/12\x2e14\x2e1/bin
+SETUVAR fish_user_paths:/Users/fabio/\x2econfig/nvm/12\x2e18\x2e4/bin\x1e/Users/fabio/\x2econfig/nvm/12\x2e14\x2e1/bin
 SETUVAR pure_begin_prompt_with_current_directory:true
 SETUVAR pure_color_command_duration:pure_color_warning
 SETUVAR pure_color_current_directory:pure_color_primary
